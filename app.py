@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+#import joblib
 model = joblib.load('logistic_regression_model.pkl')
 
 # 만든 모델로 테스트 데이터에 대해 예측하기
