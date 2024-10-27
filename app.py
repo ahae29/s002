@@ -1,6 +1,6 @@
 import streamlit as st
 
-#  기계학습 모델 파일 로드(모델명 : _______)
+
 import joblib
 model = joblib.load('logistic_regression_model.pkl')
 
