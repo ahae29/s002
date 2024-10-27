@@ -3,7 +3,7 @@ import joblib
 model = joblib.load('logistic_regression_model.pkl')
 
 # 만든 모델로 테스트 데이터에 대해 예측하기
-st.title('합불 분류 지능에이전트')
+st.title('vj합불 분류 지능에이전트')
 
 col1, col2 = st.columns(2)
 
